@@ -1,0 +1,14 @@
+{
+  "name": "coffee-bot-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Serverless Discord notifier for support webhooks (Vercel)",
+  "scripts": {
+    "register": "node --env-file=.env scripts/register-commands.js",
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
